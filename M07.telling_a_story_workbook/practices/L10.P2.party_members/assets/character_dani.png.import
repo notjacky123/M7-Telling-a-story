@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c7m403bmtpj4b"
-path="res://.godot/imported/character_dani.png-b1f6767e988a1327093414ba0763f675.ctex"
+path="res://.godot/imported/character_dani.png-8d9959cc85bcb072dfc0e1ae59c4c542.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://addons/gdpractice/practice_solutions/L10.P2.party_members/assets/character_dani.png"
-dest_files=["res://.godot/imported/character_dani.png-b1f6767e988a1327093414ba0763f675.ctex"]
+source_file="res://practices/L10.P2.party_members/assets/character_dani.png"
+dest_files=["res://.godot/imported/character_dani.png-8d9959cc85bcb072dfc0e1ae59c4c542.ctex"]
 
 [params]
 

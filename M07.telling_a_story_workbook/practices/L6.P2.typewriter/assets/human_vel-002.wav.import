@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://lediykc1phcl"
-path="res://.godot/imported/human_vel-002.wav-5f0bb3ab62a56629ffe49d860a1b0f7a.sample"
+path="res://.godot/imported/human_vel-002.wav-ab046096e6be60a8203846374f0d7ec3.sample"
 
 [deps]
 
-source_file="res://addons/gdpractice/practice_solutions/L6.P2.typewriter/assets/human_vel-002.wav"
-dest_files=["res://.godot/imported/human_vel-002.wav-5f0bb3ab62a56629ffe49d860a1b0f7a.sample"]
+source_file="res://practices/L6.P2.typewriter/assets/human_vel-002.wav"
+dest_files=["res://.godot/imported/human_vel-002.wav-ab046096e6be60a8203846374f0d7ec3.sample"]
 
 [params]
 
