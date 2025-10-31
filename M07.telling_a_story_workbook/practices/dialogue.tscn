@@ -1,6 +1,7 @@
-[gd_scene load_steps=6 format=3 uid="uid://d1upydi0tmjme"]
+[gd_scene load_steps=7 format=3 uid="uid://d1upydi0tmjme"]
 
 [ext_resource type="Shader" uid="uid://cs15e2hgd2lan" path="res://assets/sliding_background.gdshader" id="1_u6b8w"]
+[ext_resource type="Theme" uid="uid://drays61pfu7xc" path="res://lessons/main_theme.tres" id="1_vvjsy"]
 [ext_resource type="Texture2D" uid="uid://bnly1gkbxw6b5" path="res://assets/bubble_pattern.png" id="2_4mkyh"]
 [ext_resource type="Texture2D" uid="uid://copkt78vgp37i" path="res://assets/sophia.png" id="3_qewyy"]
 [ext_resource type="Texture2D" uid="uid://d000xjtr4iqtk" path="res://assets/emotion_regular.png" id="4_qewyy"]
@@ -19,6 +20,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+theme = ExtResource("1_vvjsy")
 
 [node name="background" type="ColorRect" parent="."]
 material = SubResource("ShaderMaterial_oyvqa")
@@ -35,10 +37,10 @@ layout_mode = 1
 anchors_preset = -1
 anchor_right = 0.5
 anchor_bottom = 1.0
-offset_left = -10.0
-offset_top = 233.0
-offset_right = -245.0
-offset_bottom = 4.0
+offset_left = 13.0
+offset_top = 231.0
+offset_right = -222.0
+offset_bottom = 2.0
 grow_vertical = 0
 texture = ExtResource("3_qewyy")
 expand_mode = 1
@@ -49,10 +51,10 @@ layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_left = 8.0
-offset_top = 37.0
-offset_right = -23.0
-offset_bottom = -19.0
+offset_left = 10.0
+offset_top = 34.0
+offset_right = -21.0
+offset_bottom = -22.0
 grow_horizontal = 2
 grow_vertical = 2
 texture = ExtResource("4_qewyy")
@@ -65,26 +67,29 @@ anchors_preset = -1
 anchor_left = 0.5
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_left = 324.0
-offset_top = 381.0
-offset_right = -424.0
-offset_bottom = -553.0
+offset_left = 22.0
+offset_top = 410.0
+offset_right = -34.0
+offset_bottom = -539.0
 grow_horizontal = 2
 grow_vertical = 2
+theme = ExtResource("1_vvjsy")
+bbcode_enabled = true
 text = "Hello world!"
+fit_content = true
 
 [node name="NextButton" type="Button" parent="."]
 layout_mode = 1
-anchors_preset = 3
-anchor_left = 1.0
-anchor_top = 1.0
+anchors_preset = -1
+anchor_left = 0.5
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_left = -233.0
-offset_top = -172.0
-offset_right = -104.0
-offset_bottom = -91.0
+offset_left = 748.0
+offset_top = 937.0
+offset_right = -33.0
+offset_bottom = -29.0
 grow_horizontal = 0
 grow_vertical = 0
+theme = ExtResource("1_vvjsy")
 text = "next
 "

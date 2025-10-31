@@ -1,0 +1,57 @@
+[gd_resource type="Theme" load_steps=6 format=3 uid="uid://drays61pfu7xc"]
+
+[ext_resource type="StyleBox" uid="uid://b6w2lq182ka4i" path="res://lessons/button_black.tres" id="1_ei3wx"]
+[ext_resource type="StyleBox" uid="uid://du0imb3bp7y4" path="res://lessons/button_orange.tres" id="2_ulena"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ulena"]
+content_margin_left = 22.0
+content_margin_top = 15.0
+content_margin_right = 22.0
+content_margin_bottom = 18.0
+bg_color = Color(0.02, 0.0075999997, 0.018553331, 1)
+draw_center = false
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.9019608, 0.6156863, 0, 1)
+corner_radius_top_left = 48
+corner_radius_top_right = 48
+corner_radius_bottom_right = 48
+corner_radius_bottom_left = 48
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_aaryr"]
+content_margin_left = 22.0
+content_margin_top = 15.0
+content_margin_right = 22.0
+content_margin_bottom = 18.0
+bg_color = Color(0.02, 0.0075999997, 0.018553331, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+corner_radius_top_left = 48
+corner_radius_top_right = 48
+corner_radius_bottom_right = 48
+corner_radius_bottom_left = 48
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ei3wx"]
+content_margin_left = 48.0
+content_margin_top = 32.0
+content_margin_right = 48.0
+content_margin_bottom = 32.0
+bg_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 32
+corner_radius_top_right = 32
+corner_radius_bottom_right = 32
+corner_radius_bottom_left = 32
+
+[resource]
+default_font_size = 48
+Button/styles/disabled = ExtResource("1_ei3wx")
+Button/styles/focus = SubResource("StyleBoxFlat_ulena")
+Button/styles/hover = ExtResource("2_ulena")
+Button/styles/normal = SubResource("StyleBoxFlat_aaryr")
+Button/styles/pressed = ExtResource("2_ulena")
+RichTextLabel/colors/default_color = Color(0.18304989, 0.81343645, 0.80790234, 1)
+RichTextLabel/styles/normal = SubResource("StyleBoxFlat_ei3wx")
