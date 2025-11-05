@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="M07. Telling a Story (Workbook)"
-run/main_scene="res://practices/dialogue.tscn"
+run/main_scene="res://lessons/dialogue.tscn"
 config/features=PackedStringArray("4.5")
 config/icon="res://icon_telling_a_story.png"
 

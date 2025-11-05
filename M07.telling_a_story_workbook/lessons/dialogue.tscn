@@ -3,7 +3,7 @@
 [ext_resource type="Shader" uid="uid://cs15e2hgd2lan" path="res://assets/sliding_background.gdshader" id="1_u6b8w"]
 [ext_resource type="Theme" uid="uid://drays61pfu7xc" path="res://lessons/main_theme.tres" id="1_vvjsy"]
 [ext_resource type="Texture2D" uid="uid://bnly1gkbxw6b5" path="res://assets/bubble_pattern.png" id="2_4mkyh"]
-[ext_resource type="Script" uid="uid://chi3x8y57fqbb" path="res://practices/dialogue.gd" id="2_q8rml"]
+[ext_resource type="Script" uid="uid://chi3x8y57fqbb" path="res://lessons/dialogue.gd" id="2_q8rml"]
 [ext_resource type="Texture2D" uid="uid://copkt78vgp37i" path="res://assets/sophia.png" id="3_qewyy"]
 [ext_resource type="Texture2D" uid="uid://d000xjtr4iqtk" path="res://assets/emotion_regular.png" id="4_qewyy"]
 [ext_resource type="AudioStream" uid="uid://bafjgt7eu3x5a" path="res://assets/talking_synth.ogg" id="7_27o6k"]
