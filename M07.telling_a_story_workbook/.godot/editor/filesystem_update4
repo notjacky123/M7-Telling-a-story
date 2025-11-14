@@ -1,4 +1,3 @@
-res://lessons/expressions.tscn
 res://addons/gdpractice/assets/theme.tres
 res://practices/L5.P1.pick_correct_response/assets/practice_exercises_theme.tres
 res://practices/L5.P2.text_slideshow/assets/practice_exercises_theme.tres
@@ -8,4 +7,3 @@ res://practices/L8.P1.pick_your_character/assets/practice_exercises_theme.tres
 res://practices/L10.P1.image_slideshow/assets/practice_exercises_theme.tres
 res://practices/L10.P2.party_members/assets/practice_exercises_theme.tres
 res://lessons/main_theme.tres
-res://lessons/expressions.gd
