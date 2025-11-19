@@ -5,27 +5,36 @@ var expressions := {
 	"regular": preload ("res://assets/emotion_regular.png"),
 	"sad": preload ("res://assets/emotion_sad.png"),
 }
+var bodies := {
+	"sophia": preload ("res://assets/sophia.png"),
+	"pink": preload ("res://assets/pink.png")
+}
 
 var dialogue_items: Array[Dictionary] = [
 	{
 		"expression": expressions["regular"],
 		"text": "I'm learning about Arrays...",
+		"character": bodies["sophia"],
 	},
 	{
 		"expression": expressions["sad"],
 		"text": "... and it is a little bit complicated.",
+		"character": bodies["pink"],
 	},
 	{
 		"expression": expressions["happy"],
 		"text": "Let's see if I got it right: an array is a list of values!",
+		"character": bodies["sophia"],
 	},
 	{
 		"expression": expressions["regular"],
 		"text": "Did I get it right? Did I?",
+		"character": bodies["sophia"],
 	},
 	{
 		"expression": expressions["happy"],
 		"text": "Hehe! Bye bye~!",
+		"character": bodies["pink"],
 	},
 ]
 	
@@ -41,9 +50,10 @@ func show_text() -> void:
 	var current_item := dialogue_items[current_item_index]
 	rich_text_label.text = current_item["text"]
 	expression.texture = current_item["expression"]
+	bodies.texture = current_item["character"]
 	rich_text_label.visible_ratio = 0.0
 	var tween := create_tween()
-	var text_appearing_duration := 1.0
+	var text_appearing_duration: float = current_item["text"].length() / 30.0
 	tween.tween_property(rich_text_label, "visible_ratio", 1.0, text_appearing_duration)
 	var sound_max_offset := audio_stream_player.stream.get_length() - text_appearing_duration
 	var sound_start_position := randf() * sound_max_offset
