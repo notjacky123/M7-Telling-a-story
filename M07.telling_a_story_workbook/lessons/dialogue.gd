@@ -13,27 +13,27 @@ var bodies := {
 var dialogue_items: Array[Dictionary] = [
 	{
 		"expression": expressions["regular"],
-		"text": "pink why aren't you appring",
+		"text": "hello pink",
 		"character": bodies["sophia"],
 	},
 	{
 		"expression": expressions["sad"],
-		"text": "it was supposed to be body, not bodies",
+		"text": "hello sophia",
 		"character": bodies["pink"],
 	},
 	{
 		"expression": expressions["happy"],
-		"text": "oh i see.",
+		"text": "I've been learning about [wave]arrays and dictionaries[/wave] lately.",
 		"character": bodies["sophia"],
 	},
 	{
 		"expression": expressions["regular"],
-		"text": "well bye pink.",
+		"text": "Well... it's a little [shake]complicated[/shake]!",
 		"character": bodies["sophia"],
 	},
 	{
 		"expression": expressions["happy"],
-		"text": "bye sophia",
+		"text": "Thanks for the encouragement. Time to [tornado freq=3.0][rainbow val=1.0]LEARN!!![/rainbow][/tornado]",
 		"character": bodies["pink"],
 	},
 ]
